@@ -1,0 +1,125 @@
+/* =========== Fonts Links =========== */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Roboto', sans-serif;
+}
+.nav-heading{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size:27px;
+line-height: 31px;
+}
+.gradiant{
+  background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+}
+.gradiant2{
+  background: linear-gradient(360deg, #A4BC46 0%, #faea0f9a 100%);
+}
+.list{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+margin-left: 50px;
+}
+.banner-heading{
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+line-height: 96px;
+}
+.title{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color:#3E3E3E;
+}
+.color{
+  color: #A4BC46;
+}
+.color1{
+  color: #363958;
+}
+.color2{
+  color: #FABE4C;
+}
+.jaket-background{
+background-color: #F1F1F1;
+}
+.jaket-title{
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 58px;
+color: #363958;
+}
+.jaket-sub-heading{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+color: #363958;
+}
+.jaket-sub-title{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #3E3E3E;
+}
+.jaket-shadow{
+background: #FFFFFF;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+border-radius: 20px;
+}
+.card-title{
+font-family: Roboto;
+font-weight:bolder;
+font-size: 24px;
+line-height: 28px;
+color: #363958;
+}
+.card-text{
+  font-weight: 500;
+font-family: Roboto;
+font-size: 16px;
+line-height: 26px;
+color: #3E3E3E;
+}
+
+.footer-content{
+  text-align: center;
+}
+.social-icon{
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  
+}
+.social-icon i{
+  font-size: 17px;
+  display: flex;
+  line-height:40px;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #c00ff7 0%, #ff6ae68a 100%);
+  color: white;
+ }
